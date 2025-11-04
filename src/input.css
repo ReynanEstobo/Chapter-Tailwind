@@ -78,11 +78,15 @@
           text-base sm:text-lg md:text-xl lg:text-2xl xl:text-2xl;
 }
 
-
 .img {
-  @apply flex justify-center mt-10 fill-white drop-shadow-xl/5
+  @apply flex justify-center mt-10 fill-white drop-shadow-xl/5;
+}
 .foot-d {
   @apply flex flex-wrap justify-center items-center gap-5 sm:gap-6 md:gap-8 lg:gap-10 xl:gap-12;
+}
+
+.foot {
+  @apply w-full text-center py-4 text-gray-700 bg-[#C8AE7E]  mt-auto flex flex-col items-center space-y-3 sm:space-y-4 md:space-y-5;
 }
 
 .p-img {
@@ -90,8 +94,6 @@
   @apply mt-3 text-[#996515] text-center 
           text-xs sm:text-sm md:text-base lg:text-lg xl:text-lg;
 }
-
-
 
 .ol {
   @apply pl-7 mt-5 text-justify list-decimal text-[#996515]  pb-3;
@@ -191,4 +193,8 @@ html {
 
 .paragraph {
   @apply md:text-xl lg:text-xl xl:text-xl indent-5 p-2;
+}
+
+.fp {
+  @apply text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-gray-800 font-medium tracking-wide;
 }
