@@ -1,17 +1,27 @@
 {
-  "name": "chapter-tailwind",
+  "name": "richelleannroxas_tailwind",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "tailwind": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailwind": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@tailwindcss/cli": "^4.1.15",
-    "tailwindcss": "^4.1.15"
-  }
+    "@tailwindcss/vite": "^4.1.14",
+    "tailwindcss": "^4.1.14"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RichelleAnne09/Tailwind101.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RichelleAnne09/Tailwind101/issues"
+  },
+  "homepage": "https://github.com/RichelleAnne09/Tailwind101#readme"
 }
+

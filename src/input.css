@@ -1,29 +1,41 @@
 @import "tailwindcss";
 
 .header {
-  @apply bg-[#f5f5dd] shadow-sm shadow-black z-30 p-5 ml-1 mr-1 mt-3 rounded-xl text-[#996515];
+    @apply fixed top-0 left-0 w-full flex items-center justify-between pb-4 md:pb-5 mb-3 shadow-sm shadow-black z-30 bg-[#C8AE7E] bg-80;
 }
 
-.div-paragraph{
-    @apply bg-white shadow-sm shadow-black p-4 rounded-xl
+.nav{
+    @apply pr-4 sm:pr-6 md:pr-8 lg:pr-10 pt-4 md:pt-5 relative,
+
 }
 
-.sec{
+.div-paragraph {
+    @apply bg-white shadow-sm shadow-black p-4 rounded-xl;
+}
+
+.h1{
+    @apply h1 class="bg-[#C8AE7E] shadow-sm shadow-black text-center py-3 px-5 rounded-xl text-[#996515] text-2xl sm:text-3xl lg:text-4xl font-bold;
+
+}
+
+.sec {
     @apply bg-white shadow-sm shadow-black z-30 text-center p-2.5 ml-1 mr-1 mt-3 rounded-xl text-[#996515];
-    
 }
 
-.pclass{
-    @apply text-2xl sm:text-2xl md:text-2xl lg:text-3xl mt-5 text-justify text-[#996515] indent-8
-    @apply italic-text-center b-5 text-xl md:text-xl font-medium mt-6 leading-relaxed text-2xl sm:text-2xl md:text-2xl lg:text-3xl font-bold text-[#996515] 
+.pclass {
+    @apply text-2xl sm:text-2xl md:text-2xl lg:text-3xl mt-5 text-justify text-[#996515] indent-8;
 }
 
-.footer{
-    @apply foot-d flex- justify-center items-center gap-6 sm:gap-8 md:gap-10;
+.img{
+    @apply rounded-xl shadow-xl w-150 h-auto
+
+}
+
+.footer {
+    @apply flex-justify-center items-center gap-6 sm:gap-8 md:gap-10;
     @apply w-8 h-8 sm:w-9 sm:h-9 md:w-10 md:h-10 lg:w-11 lg:h-11 transform transition duration-300 hover:scale-125 hover:opacity-80;
 }
 
-.divfoot{
-    @apply fp text-center mt-4 text-gray-900 font-semibold tracking-wide
-
+.divfoot {
+    @apply text-center mt-4 text-gray-900 font-semibold tracking-wide;
 }
