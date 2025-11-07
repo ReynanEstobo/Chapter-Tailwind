@@ -1,54 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/src/output.css">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Software Engineering</title>
+    <link rel="stylesheet" href="src/output.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
-    <header>
-        <article>
-            <h1>Software Engineering</h1>
+  <body class="bg-[#f5f5dd] text-[#996515] sour-gummy">
+    <header class="index-h">
+      <section class="index-s">
+        <article class="index-h-s">
+          <img
+            src="/Pictures/software-development.png"
+            alt="Logo"
+            class="hidden lg:block w-10 h-10 xl:w-12 xl:h-12 object-contain"
+          />
+          <h1 class="index-h1">Software Engineering</h1>
         </article>
-        <article>
-            <h1>Group 6</h1>
-        </article>
-       
-    </header>
-    <main>
-        <section>
-            <h1>SOFTWARE ENGINEERING</h1>
-        </section>
-        <section>
-            <article>
-                <h1>Chapter 1</h1>
-            </article>
-            <article>
-                <h1>Chapter 2</h1>
-            </article>
-            <article>
-                <h1>Chapter 7</h1>
-            </article>
-            <article>
-                <h1>Chapter 8</h1>
-            </article>
-        </section>
-    </main>
-    <footer>
-        <article>
-            <h1>Software Engineering</h1>
-            <p>© 2025 Group 6</p>
-        </article>
-        
-        <nav>
-            <h5>Members</h5>
-            <a href="">Reynan Estobo</a>
-            <a href="">Emman Decastro</a>
-            <a href="">Erick Layug</a>
-            <a href="">Richelle Anne Roxas</a>
+
+        <nav class="index-nav">
+          <a href="Chapter1.html" class="index-hover">Chapter 1</a>
+          <a href="ChapterII.html" class="index-hover">Chapter 2</a>
+          <a href="chapter7.html" class="index-hover">Chapter 7</a>
+          <a href="Chapter8.html" class="index-hover">Chapter 8</a>
         </nav>
+      </section>
+    </header>
+
+    <section class="index-home">
+      <h2 class="index-h2">Building Reliable Software, Step by Step</h2>
+      <p class="index-s-p">
+        Explore the key stages of Software Engineering — from understanding the
+        fundamentals to mastering design and maintenance.
+      </p>
+      <a
+        href="https://engineering.futureuniversity.com/BOOKS%20FOR%20IT/Software-Engineering-9th-Edition-by-Ian-Sommerville.pdf"
+        class="index-button"
+      >
+        View full module
+      </a>
+    </section>
+
+    <main class="index-main">
+      <a href="Chapter1.html" class="index-card">
+        <div class="flex flex-col items-center text-center">
+          <img
+            src="imgs/chapt1.png"
+            alt="Introduction"
+            class="w-24 sm:w-28 md:w-32 mb-4"
+          />
+          <h3 class="text-xl sm:text-2xl font-bold mb-2">
+            Chapter 1: Introduction
+          </h3>
+          <p class="text-sm sm:text-base leading-relaxed">
+            Discover how professional software is developed, understand the
+            importance of ethics in engineering, and explore real-world examples
+            through case studies.
+          </p>
+          <p class="text-sm sm:text-base leading-relaxed pt-4">
+            Creator: <strong>Reynan Estobo</strong>
+          </p>
+        </div>
+      </a>
+
+      <a href="ChapterII.html" class="index-card">
+        <div class="flex flex-col items-center text-center">
+          <img
+            src="imgs/chapt2.png"
+            alt="Software Process"
+            class="w-24 sm:w-28 md:w-32 mb-4"
+          />
+          <h3 class="text-xl sm:text-2xl font-bold mb-2">
+            Chapter 2: Software processes
+          </h3>
+          <p class="text-sm sm:text-base leading-relaxed">
+            Learn how software processes work — from different process models
+            and key development activities to adapting to change and
+            understanding the Rational Unified Process.”
+          </p>
+          <p class="text-sm sm:text-base leading-relaxed pt-4">
+            Creator: <strong>Erick Layug</strong>
+          </p>
+        </div>
+      </a>
+
+      <a href="chapter7.html" class="index-card">
+        <div class="flex flex-col items-center text-center">
+          <img
+            src="imgs/chapt7.png"
+            alt="Software Design"
+            class="w-24 sm:w-28 md:w-32 mb-4"
+          />
+          <h3 class="text-xl sm:text-2xl font-bold mb-2">
+            Chapter 7: Design and implementation
+          </h3>
+          <p class="text-sm sm:text-base leading-relaxed">
+            Understand how software is designed and built — from object-oriented
+            design and UML to design patterns, implementation practices, and
+            open-source development.
+          </p>
+          <p class="text-sm sm:text-base leading-relaxed pt-4">
+            Creator: <strong>Emmanuel Decastro</strong>
+          </p>
+        </div>
+      </a>
+
+      <a href="Chapter8.html" class="index-card">
+        <div class="flex flex-col items-center text-center">
+          <img
+            src="imgs/chapt8.png"
+            alt="Testing"
+            class="w-24 sm:w-28 md:w-32 mb-4"
+          />
+          <h3 class="text-xl sm:text-2xl font-bold mb-2">
+            Chapter 8: Software testing
+          </h3>
+          <p class="text-sm sm:text-base leading-relaxed">
+            Explore how software testing ensures quality — from development and
+            test-driven approaches to release and user testing for reliable
+            performance.
+          </p>
+          <p class="text-sm sm:text-base leading-relaxed pt-4">
+            Creator: <strong>Richele Anne Roxas</strong>
+          </p>
+        </div>
+      </a>
+    </main>
+
+    <footer class="index-footer">
+      <p>&copy; 2025 Software Engineering by Group 6</p>
     </footer>
-</body>
+  </body>
 </html>
