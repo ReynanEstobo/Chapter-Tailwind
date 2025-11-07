@@ -6,33 +6,9 @@
   font-weight: 400;
   font-style: normal;
 }
-/* richelle chapter 8   */
 
-.header {
-  @apply bg-[#f5f5dd] shadow-sm shadow-black z-30 p-5 ml-1 mr-1 mt-3 rounded-xl text-[#996515];
-}
 
-.div-paragraph {
-  @apply bg-white shadow-sm shadow-black p-4 rounded-xl;
-}
 
-.sec {
-  @apply bg-white shadow-sm shadow-black z-30 text-center p-2.5 ml-1 mr-1 mt-3 rounded-xl text-[#996515];
-}
-
-.pclass {
-  @apply text-2xl sm:text-2xl md:text-2xl lg:text-3xl mt-5 text-justify text-[#996515] indent-8;
-}
-
-.footer {
-  @apply foot-d flex- justify-center items-center gap-6 sm:gap-8 md:gap-10;
-}
-
-.divfoot {
-  @apply fp text-center mt-4 text-gray-900 font-semibold tracking-wide;
-}
-
-/* richelle chapter 8   */
 
 @layer base {
   :root {
